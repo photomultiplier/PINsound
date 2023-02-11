@@ -328,7 +328,7 @@ while run
 			write(audioStreamOut, simulatedClick)
 		end
 
-		axAudio_y[] = buf.data[:,1]
+		axAudio_y[] = buf.data[:,din_mc]
 
 		append!(events[], newEvents(newFrames ./ audioStreamIn.sample_rate .+ start, newEnergies))
 		notify(events)
