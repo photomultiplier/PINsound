@@ -1,6 +1,19 @@
 #!/bin/julia
 
+# Copyright (C) 2023 photomultiplier
+# This program is licensed under the GNU General Public License.
+# Detailed licensing information is available in the "LICENSE" file.
+
 println("*** WELCOME TO PINsound ***")
+
+# Legal information
+
+println()
+println("""
+PINsound Copyright (C) 2023 photomultiplier
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions; see 'LICENSE' file for details.""")
 
 #
 # OPTIONS
