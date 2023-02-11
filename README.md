@@ -61,3 +61,14 @@ Each row contains the time and energy of a particle.
 | :------- | :------------------ | :-------- | :----- |
 | Time     | Seconds since epoch | `Float64` | 1      |
 | Energy   | Arbitrary units     | `Float64` | 2      |
+
+## Options
+
+At the beginning of the `PINsound.jl` are a set of options.
+Here's what they do.
+
+| Option  | Default | Explanation                                                                                                    |
+| :------ | :------ | :------------------------------------------------------------------------------------------------------------- |
+| samples | 4096    | The number of data points in each audio snippet. This doesn't affect sample rate, which depends on the device. |
+| thr     | 0.4     | The energy threshold at which events are detected.                                                             |
+| bins    | 50      | The number of bins for the histogram window.                                                                   |
